@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(155, 147, 147, 0.863);
+}
+
+.topnav {
+    background-color: rgba(10, 10, 10, 0.548);
+    overflow: hidden;
+
+
+
+  }
+  
+
+  .topnav h1 {
+    margin-left: 10px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .btn {
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom:20px;
+}
+
+
+#content {
+
+    text-align: center;
+    margin-bottom: 100px;
+    
+
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#bild1 , #bild2, #bild3, #bild4{
+    margin:100px;
+}

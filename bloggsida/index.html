@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html>
+<head>
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/buttons.js" defer></script>
+    <script src="js/image.js" defer></script>
+    
+</head>
+ <body>
+
+    <header>
+        <div class="topnav" id="myTopnav">
+
+        <grid>        
+            <h1>How many blogs do you whant?</h1>
+            <button id="button1"  class="btn btn-dark"  onclick="functionContentOne() + getPictureOne()">1</button>
+            <button id="button2"  class="btn btn-dark"  onclick="functionContentTwo() + getPictureTwo()">2</button>
+            <button id="button3"  class="btn btn-dark"  onclick="functionContentThree() + getPictureThree()">3</button>
+            <button id="button4"  class="btn btn-dark"  onClick="functionContentFour()+ getPictureFour()">4</button>                    
+            <button id="addColor" class="btn btn-dark"  onClick="changeColorRed()">Red</button>  
+            <button id="addColor" class="btn btn-dark"  onClick="changeColorGreen()">Green</button>  
+            <button id="addColor" class="btn btn-dark"  onClick="changeColorBlue()">Blue</button>  
+            <button id="addColor" class="btn btn-dark"  onClick="changeColorYellow()">Yellow</button>  
+            <button id="addColor" class="btn btn-dark"  onClick="changeGrid()">Grid</button> 
+            <button id="resetButton" class="btn btn-dark"  onClick="reloadPage()">Reset!</button> 
+        </grid>
+           
+        </div>
+    </header>
+    
+    <div id="content">
+        
+
+       <div id="bild1">    
+       
+       </div>
+
+
+       <div id="bild2" >
+       
+      </div>
+
+      <div id="bild3" >
+       
+    </div>
+
+    <div id="bild4" >
+      
+    </div>
+
+
+
+    </div>
+   
+
+
+
+  </body>
+ </html>
